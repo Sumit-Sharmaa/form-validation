@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loginForm</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <div class="container">
+        <!-- left side ------------------------>
+        <div class="left"> </div>
+
+        <!-- right side -------------->
+        <div class="right">
+            <div class="right-container">
+                <h5>Welcome back</h5>
+                <h1>Login to your account</h1>
+
+                <form >
+                    
+                    <h4>Email</h4>
+                    <input id="email" type="email " placeholder="Enter your email">
+                    <p class="emailErr ">Enter a valid Email</p>
+                    
+                    <h4>Password</h4>
+                    <input id="password" type="password " placeholder="Enter your password">
+                    <p class="passwordErr ">Enter a valid Password</p>
+                    
+                    <div class="sameLine">
+                        <div class="remember">
+                            <input type="radio" >
+                            <p>Remember me</p>
+                        </div>
+                        
+                        <div>
+                        <a href="#">Forgot password?</a>
+                    </div>
+                </div>
+                </form>
+                <div class="buttons">
+                    
+                    <!-- <input type="submit" value="Login now"> -->
+                    <button id="submit" onclick="toWelcomePage()">Login now</button>
+                    
+                    <button id="blue"> <img src="./google_logo.png" alt="logo"><span>Or sign-in with google</span></button>
+                </div>
+                <p id="foot">Dont have an account? <span><a href="#">Join free today </a></span></p>
+            </div>
+        </div>
+        
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+
+</html>
